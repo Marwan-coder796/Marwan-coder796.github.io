@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+
+        setInterval(function() {
+            var colors = ["red", "blue", "green", "purple", "orange", "pink"];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.getElementById("changingText").style.color = randomColor;
+        }, 1000);
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1 id="changingText">Marwan</h1>
+    </header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.mannheim24.de/news.htm">News</a></li>
+        <li><a href="Contact.htm">Contact</a></li>
+        <li><a href="https://github.com/">About</a></li>
+      </ul> 
+
+    <p>E-mail: fmarwan27@yahoo.com</p>
+    <p>Github: Marwan-coder796</p>
+    <p>Moodle: kaalmarwan</p>
+
+    <footer>
+      <p>Copyright ©2022 Marwan Kaal</p>
+    </footer>
+  </body>
+</html>
